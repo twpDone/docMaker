@@ -1,7 +1,10 @@
 docMaker
 ========
 
-Shell script to generate html documentation with specials code comments.
+Shell script to generate html documentation with specials code comments.  
+
+Dox... doesn't support bash scripts or other format cause it parses code too.  
+Mine only parses the comments.
 
 This is not perfect nor beautiful yet, but it works fine and i love it.
 Please feel free to propose evolutions.
