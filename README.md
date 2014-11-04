@@ -3,6 +3,13 @@ docMaker
 
 Shell script to generate html documentation with specials code comments.
 
+This is not perfect nor beautiful yet, but it works fine and i love it.
+Please feel free to propose evolutions.
+
+========
+Self generated documentation.
+========
+
 <div style=width:50%;border-style:solid;border-width:thin;padding-left:15px;margin-top:10px;>
 <br><a href='#docMaker'>File docMaker</a>
 <br><a href='#DIV_STYLE'>CONST DIV_STYLE</a>
@@ -51,10 +58,4 @@ Shell script to generate html documentation with specials code comments.
 <div style='width:50%;border-style:solid;border-width:thin;padding-left:15px;margin-top:10px;'><p>
 <div id='DIV_NOTE_STYLE' style='background:#66FF66'><b>CONST</b><em style='color:green;'> DIV_NOTE_STYLE</em> Define div css style for each note div of comment. </div>
 </p></div>
-
-
-
-
-
-
 
