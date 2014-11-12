@@ -81,7 +81,8 @@ sed -e "/^[^#]/ d" \
 -e s/"^#>[ \s]@param \([^ ]*\) \(.*\)"/"<br><b>Parameter<\/b>$EM_GREEN_TEXT \1<\/em> \2 "/g \
 -e s/"^#>[ \s]@note\(.*\)"/"<div style='$DIV_NOTE_STYLE'><b>Note<\/b>\1<\/div>"/g \
 -e s/"^#>[ \s]@\([^ ]*\) \(.*\)"/"<br><b>\1<\/b> \2 "/g \
--e s/"^#>"/"<br>"/g $1 >tmpDoc
+-e s/"^#>"/"<br>"/g \
+-e "/^#/ d" $1 >tmpDoc
 
 #Generate index
 grep id= tmpDoc | sed s/".*id='\([^']*\)'.*<b>\([^><]*\)<\/b>.*"/"<br><a href='#\1'>\2 \1<\/a>"/g > tmpIndex
