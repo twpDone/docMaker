@@ -17,13 +17,13 @@
 ##
 #> @HowTo Comments
 #> @syntax Bloc comment must follow this syntax
-#> @: 
-#> @: ##
-#> @: #> @keyword
-#> @: #> ...
-#> @: #
-#> @: code....
-#> @: 
+#>
+#> ##
+#> #> @keyword
+#> #> ...
+#> #
+#> code....
+#>  
 #
 
 ##
