@@ -39,8 +39,8 @@ Self generated documentation.
 <br><b>syntax</b> Bloc comment must follow this syntax 
 <br><b>:</b>  
 <br><b>:</b> ## 
-<br><b>:</b> # @keyword 
-<br><b>:</b> # ... 
+<br><b>:</b> #> @keyword 
+<br><b>:</b> #> ... 
 <br><b>:</b> # 
 <br><b>:</b> code.... 
 <br><b>:</b>  
