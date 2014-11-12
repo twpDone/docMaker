@@ -75,7 +75,7 @@ sed -e "/^[^#]/ d" \
 -e s/"^##"/"<div style='$DIV_STYLE'><p>"/g \
 -e s/"^#[ \s]*$"/"<\/p><\/div>"/g \
 -e s/"^#>[ \s]@function\(.*\)"/"<div id='\1' style='$DIV_GREEN_STYLE'><b>Function<\/b>\1<\/div>"/g \
--e s/"^#>[ \s]@file \([^ ]*\) *\([^ ]*\).*"/"<div id='\1' style='$DIV_GREEN_STYLE'><b>File<\/b>$EM_GREEN_TEXT\1<\/em> \2<\/div>"/g \
+-e s/"^#>[ \s]@file \([^ ]*\) *\([^ ]*\).*"/"<div id='\1' style='$DIV_GREEN_STYLE'><b>File<\/b> $EM_GREEN_TEXT\1<\/em> \2<\/div>"/g \
 -e s/"^#>[ \s]@CONST \([^ ]*\) \(.*\)"/"<div id='\1' style='$DIV_GREEN_STYLE'><b>CONST<\/b>$EM_GREEN_TEXT \1<\/em> \2 <\/div>"/g \
 -e s/"^#>[ \s]@var \([^ ]*\) \(.*\)"/"<div id='\1' style='$DIV_GREEN_STYLE'><b>Variable<\/b>$EM_GREEN_TEXT \1<\/em> \2 <\/div>"/g \
 -e s/"^#>[ \s]@param \([^ ]*\) \(.*\)"/"<br><b>Parameter<\/b>$EM_GREEN_TEXT \1<\/em> \2 "/g \
