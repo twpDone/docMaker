@@ -9,6 +9,8 @@ Mine only parses the comments.
 This is not perfect nor beautiful yet, but it works fine and i love it.
 Please feel free to propose evolutions.
 
+You can see the [wiki](https://github.com/twpDone/docMaker/wiki) for further details.
+
 ========
 Self generated documentation.
 ========
