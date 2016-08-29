@@ -80,7 +80,7 @@ sed -e "/^[^#]/ d" \
 -e s/"^#>[ \s]@var \([^ ]*\) \(.*\)"/"<div id='\1' style='$DIV_GREEN_STYLE'><b>Variable<\/b>$EM_GREEN_TEXT \1<\/em> \2 <\/div>"/g \
 -e s/"^#>[ \s]@param \([^ ]*\) \(.*\)"/"<br><b>Parameter<\/b>$EM_GREEN_TEXT \1<\/em> \2 "/g \
 -e s/"^#>[ \s]@note\(.*\)"/"<div style='$DIV_NOTE_STYLE'><b>Note<\/b>\1<\/div>"/g \
--e s/"^#>[ \s]@see \([^ ]*\) \(.*\)"/"<br><b>See<\/b><a href='\#\1'>\1<\/a> \2"/g \
+-e s/"^#>[ \s]@see \([^ ]*\)"/"<br><b>See <\/b><a href='#\1'>\1<\/a>"/g \
 -e s/"^#>[ \s]@\([^ ]*\) \(.*\)"/"<br><b>\1<\/b> \2 "/g \
 -e s/"^#>"/"<br>"/g \
 -e "/^#/ d" $1 >tmpDoc
